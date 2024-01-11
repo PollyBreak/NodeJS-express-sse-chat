@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyChat</title>
+    <link rel="stylesheet" href="/static/stylesheets/index.css">
+    <script src="/static/javascripts/chat.js"></script>
+
+</head>
+
+<body>
+
+<div class="full-container">
+
+    <div class="name-window-container">
+        <div class="name-window">
+            <p class="name-label">Your name:</p>
+            <input type="text" value="Anonymous" id="name" disabled>
+            <label for="name"><input type="submit" id="change-name" value="Change name"></label>
+        </div>
+    </div>
+
+    <div class="chat-window-container">
+        <div id="chat-window">
+        </div>
+    </div>
+
+    <div class="input-window-container">
+        <form id="input-window">
+            <input type="text" id="new-message">
+            <label for="new-message"><input type="button" value=Send id="send-button"></label>
+        </form>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
